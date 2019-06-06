@@ -16,9 +16,22 @@
 
 								<a href="javascript:history.back()">Back to Project</a>
 								<h1>Model Predictive Control Project One</h1>
-								<img src="images/pic01.jpg"/,alt="" height=auto width=auto/>
-								<img src="images/pic01.jpg"/>
-								<p>A Mechanical Engineering student with a passion for Autonomous Driving </p>
+								<img src="images/mpc.jpg"/,alt="" height=280 width=1200/>
+
+								<center>This project is aim to develop a controller to control the inverted pendulum.<br>
+									Three control states in the figure are cart position, pendulum angle from vertical,
+									and pendulum angle velocity.<br><br>
+									This project uses model predictive control(MPC). MPC is an optimal control method,
+									and it can predict the behavior of the system input.<br>
+									Based on the prediction, the controller generates a control strategy based on the minimum cost for the system.
+									After this process, the controller will only take the first step in control strategy
+									as the input for the control system. <br>
+									The algorithm "rolls out" the future states	for a certain prediction horizon.
+									Besides, the cost function which has some quadratic
+									terms of state error, input amplitude, and input increment, is used to calculate the
+									minimum cost for the system.<br><br>
+									The MATLAB code for this project can be found on <a href="https://github.com/yoloye/MPC-1.git">Github</a>
+								</center>
 								<!-- 	<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
 									for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p> --
 
